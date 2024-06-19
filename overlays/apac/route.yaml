@@ -8,6 +8,8 @@ metadata:
 spec:
   host: todo.apps.ocp5.svtech.gay
   path: "/todo"
+  port:
+    targetPort: 8080
   to:
     kind: Service
     name: frontend-apac
